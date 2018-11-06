@@ -57,8 +57,9 @@ class DekGeneratePlugin
   }
 
   function custom_post_type(){
-    register_post_type( 'schools', ['public' => true, 'label' => 'Schools']);
+    // register_post_type( 'schools', ['public' => true, 'label' => 'Schools']);
   }
+
 }
 
 if ( class_exists('DekGeneratePlugin')) {
